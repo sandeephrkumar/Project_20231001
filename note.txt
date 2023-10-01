@@ -1,0 +1,2 @@
+adding new file to project -- note.txt
+addded mul add funcitons
