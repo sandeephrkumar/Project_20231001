@@ -1,4 +1,4 @@
-name: hello-world-2nd
+name: Execute the python code
 on: push
 jobs:
   my-job:
