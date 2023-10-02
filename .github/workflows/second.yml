@@ -13,6 +13,6 @@ jobs:
 
       - name: my-step-2nd time
         run: |
-          python /home/runner/work/Project_20231001/functions.ipynb
+          python functions.ipynb
           echo "Hello World!"
           echo "I am from HK"
