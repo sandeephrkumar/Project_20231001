@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: my-step-2nd time
         run: echo "Hello World!"
-        run: echo date +"%H:%M"
+        run: echo "I am from HK"
