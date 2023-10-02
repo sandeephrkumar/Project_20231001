@@ -1,2 +1,3 @@
 adding new file to project -- note.txt
-addded mul add funcitons -- noted
+addded mul add funcitons -- noted.zcxz
+asdasd
