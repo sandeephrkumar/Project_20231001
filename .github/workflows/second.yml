@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
     
       - name: setup python
         uses: actions/setup-python@v4
@@ -16,6 +17,6 @@ jobs:
 
       - name: my-step-2nd time
         run: |
-          python functions.ipynb
+          python start.py
           echo "Hello World!"
           echo "I am from HK"
