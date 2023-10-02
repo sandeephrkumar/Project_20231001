@@ -4,6 +4,9 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+    
       - name: setup python
         uses: actions/setup-python@v4
         with:
@@ -13,6 +16,6 @@ jobs:
 
       - name: my-step-2nd time
         run: |
-          python ../functions.ipynb
+          python functions.ipynb
           echo "Hello World!"
           echo "I am from HK"
